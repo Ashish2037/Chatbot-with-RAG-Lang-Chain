@@ -10,8 +10,7 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain.llms import OpenAI
 from langchain.vectorstores import Chroma
-import constants
-import pdf_reader
+import API_key
 
 
 pdf_reader.main()
